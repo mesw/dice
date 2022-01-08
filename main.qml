@@ -11,6 +11,11 @@ Window {
     title: qsTr("Hello World")
 
 
+    FontLoader {
+        id: webFont
+        source: "qrc:/font/rubik/static/Rubik-Regular.ttf"
+    }
+
 
     Rectangle {
         id: backgroundRect
@@ -31,9 +36,13 @@ Window {
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
 
+        font.family: webFont.font.family
+        font.weight: webFont.font.weight
+        font.pixelSize: 2000
         fontSizeMode: Text.Fit
         minimumPointSize: 10
-        font.pointSize: 1000
+
+        renderType: Text.NativeRendering
 
         MouseArea {
             anchors.fill: parent
@@ -50,7 +59,7 @@ Window {
         Timer {
             id: timer
 
-            interval: 1234
+            interval: 1000
             repeat: false
 
             onTriggered: {
@@ -63,7 +72,7 @@ Window {
 
     BusyIndicator {
         id: busyIndicator
-        running: true
+        running: false
         anchors.fill: parent
         visible: false
     }

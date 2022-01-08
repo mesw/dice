@@ -1,5 +1,30 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>font/roboto/LICENSE.txt</file>
+        <file>font/roboto/RobotoCondensed-Bold.ttf</file>
+        <file>font/roboto/RobotoCondensed-BoldItalic.ttf</file>
+        <file>font/roboto/RobotoCondensed-Italic.ttf</file>
+        <file>font/roboto/RobotoCondensed-Light.ttf</file>
+        <file>font/roboto/RobotoCondensed-LightItalic.ttf</file>
+        <file>font/roboto/RobotoCondensed-Regular.ttf</file>
+        <file>font/rubik/static/Rubik-Black.ttf</file>
+        <file>font/rubik/static/Rubik-BlackItalic.ttf</file>
+        <file>font/rubik/static/Rubik-Bold.ttf</file>
+        <file>font/rubik/static/Rubik-BoldItalic.ttf</file>
+        <file>font/rubik/static/Rubik-ExtraBold.ttf</file>
+        <file>font/rubik/static/Rubik-ExtraBoldItalic.ttf</file>
+        <file>font/rubik/static/Rubik-Italic.ttf</file>
+        <file>font/rubik/static/Rubik-Light.ttf</file>
+        <file>font/rubik/static/Rubik-LightItalic.ttf</file>
+        <file>font/rubik/static/Rubik-Medium.ttf</file>
+        <file>font/rubik/static/Rubik-MediumItalic.ttf</file>
+        <file>font/rubik/static/Rubik-Regular.ttf</file>
+        <file>font/rubik/static/Rubik-SemiBold.ttf</file>
+        <file>font/rubik/static/Rubik-SemiBoldItalic.ttf</file>
+        <file>font/rubik/OFL.txt</file>
+        <file>font/rubik/README.txt</file>
+        <file>font/rubik/Rubik-Italic-VariableFont_wght.ttf</file>
+        <file>font/rubik/Rubik-VariableFont_wght.ttf</file>
     </qresource>
 </RCC>
