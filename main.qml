@@ -41,11 +41,14 @@ Window {
         font.pointSize: 2000
         fontSizeMode: Text.Fit
         minimumPointSize: 10
+        color: "#424242"
+
 
         //        renderType: Text.NativeRendering // looks great on the desktop but not working on android :(
         renderType: Text.QtRendering
         renderTypeQuality: 208 //208=Text.VeryHighRenderTypeQuality
-
+        style: Text.Outline
+        styleColor: "#000000"
 
         MouseArea {
             anchors.fill: parent
