@@ -38,7 +38,7 @@ Window {
 
         font.family: webFont.font.family
         font.weight: webFont.font.weight
-        font.pixelSize: 2000
+        font.pointSize: 2000
         fontSizeMode: Text.Fit
         minimumPointSize: 10
 
