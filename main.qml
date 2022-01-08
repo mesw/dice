@@ -1,6 +1,6 @@
-import QtQuick 2.15
-import QtQuick.Window 2.15
-import QtQuick.Controls 2.15
+import QtQuick
+import QtQuick.Window
+import QtQuick.Controls
 
 Window {
     id: window
@@ -13,7 +13,7 @@ Window {
 
     FontLoader {
         id: webFont
-        source: "qrc:/font/rubik/static/Rubik-Regular.ttf"
+        source: "qrc:/font/roboto/Roboto-Regular.ttf"
     }
 
 
@@ -42,7 +42,10 @@ Window {
         fontSizeMode: Text.Fit
         minimumPointSize: 10
 
-        renderType: Text.NativeRendering
+        //        renderType: Text.NativeRendering // looks great on the desktop but not working on android :(
+        renderType: Text.QtRendering
+        renderTypeQuality: 208 //208=Text.VeryHighRenderTypeQuality
+
 
         MouseArea {
             anchors.fill: parent

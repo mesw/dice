@@ -26,5 +26,17 @@
         <file>font/rubik/README.txt</file>
         <file>font/rubik/Rubik-Italic-VariableFont_wght.ttf</file>
         <file>font/rubik/Rubik-VariableFont_wght.ttf</file>
+        <file>font/roboto/Roboto-Black.ttf</file>
+        <file>font/roboto/Roboto-BlackItalic.ttf</file>
+        <file>font/roboto/Roboto-Bold.ttf</file>
+        <file>font/roboto/Roboto-BoldItalic.ttf</file>
+        <file>font/roboto/Roboto-Italic.ttf</file>
+        <file>font/roboto/Roboto-Light.ttf</file>
+        <file>font/roboto/Roboto-LightItalic.ttf</file>
+        <file>font/roboto/Roboto-Medium.ttf</file>
+        <file>font/roboto/Roboto-MediumItalic.ttf</file>
+        <file>font/roboto/Roboto-Regular.ttf</file>
+        <file>font/roboto/Roboto-Thin.ttf</file>
+        <file>font/roboto/Roboto-ThinItalic.ttf</file>
     </qresource>
 </RCC>
